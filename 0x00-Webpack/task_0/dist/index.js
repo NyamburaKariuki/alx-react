@@ -1,10 +1,5 @@
-// Importing jQuery
+// Import jQuery
 import $ from 'jquery';
-
-// Adding three different paragraphs to the body
-$(document).ready(function () {
-  const paragraphs = ['<p>This is the first paragraph.</p>', '<p>This is the second paragraph.</p>', '<p>This is the third paragraph.</p>'];
-  paragraphs.forEach(paragraph => {
-    $('body').append(paragraph);
-  });
-});
+$('body').append('<p>Holberton Dashboard</p>');
+$('body').append('<p>Dashboard data for the students</p>');
+$('body').append('<p>Copyright - Holberton School</p>');
