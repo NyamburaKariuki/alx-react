@@ -1,1 +1,1 @@
-React Redux Connectors and Providers
+eact Redux reducer+selector
